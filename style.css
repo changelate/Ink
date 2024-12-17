@@ -1,0 +1,151 @@
+body{
+    width: 1440px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav {display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #E1EDE6;
+}
+
+.logo{
+    padding-left: 30px;
+    margin-left: 20px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.element{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.present{
+    display: flex;
+    justify-content: space-between;
+}
+
+.other{
+    width: 700px;
+    padding-right: 30px;
+    
+}
+
+.text{
+    font-family: "Raleway";
+    padding-top: 50px;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+
+.text h1{
+    font-size: 5em;
+    font-weight: normal;
+}
+
+.text p{
+    font-size: 150%;
+}
+
+.text button{
+    
+}
+
+.collor_text{
+    color: #d4f3e1;
+}
+
+.galery{
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-left: 20px;
+}
+
+.paintings{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+
+}
+
+.picture{
+    width: 310px;
+    margin-bottom: 40px;
+    background-color: #E1EDE6;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 35px;
+    
+}
+
+h1{
+    font-family: "Raleway";
+    font-weight:500;
+}
+
+p{
+    font-family: "Raleway";
+    font-weight:500;
+}
+
+.price{
+    font-family: "Raleway";
+    font-size: 150%;
+    color: #598D66;
+}
+
+button{
+    width: 310px;
+    height: 65px;
+    background-color: #E1EDE6;
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #598D66;
+}
+
+.collection{
+   width: 1440px;
+    height: 574px; 
+    background-image: url("./img/pic_background.png");
+    margin-bottom: 100px;
+}
+
+.info{
+    
+    
+}
+
+.new_collection{
+    display: flex;
+    position: relative;
+    top: 75px;
+    left: 160px;
+
+}
+
+.star{
+    width: 80px;
+    height: 80px;
+}
+
+.grandpa{
+    color: white;
+    font-size: 200%;
+    width: 600px;
+    height: 100px;
+}
+
